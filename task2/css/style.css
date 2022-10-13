@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.wrap{
+    display: flex;
+}
+
+.ceo .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.ceo .text {
+    width: 50%;
+}
+.ceo .text p{
+    width: 50%;
+}
+.ceo .parent_of_image{
+    height: 600px;
+}
+.ceo .wrapper .image{
+    width: 600px;
+    position: relative;
+}
+.ceo .wrapper .image img{
+    width: 50%;
+    position: absolute;
+    border-radius:3%;
+
+}
+.ceo .wrapper .image #image1{
+    right: 250px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ceo .wrapper .image #image2{
+    right: -20px;
+    top: 80px;
+    z-index: 2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ceo .wrapper .image #image3{
+    right: 230px;
+    top: 250px;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+header{   
+    height: 60px;
+}
+
+header nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu  ul{
+    display: flex;
+}
+
+.menu  ul li{
+    margin: 10px;
+}
+
+.menu  ul li button, .ceo  button {
+    margin: -10px -5px;
+    padding: 10px 30px;
+    background-color: #4c9550;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+}
+
+.schedule .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.schedule .item{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 3%;
+}
+.schedule .item .title{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline
+    
+}
+.schedule .item-current .item .time{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline
+    
+}
+.schedule .item-prev .time{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline
+    
+}
+.schedule  .items2-collection .time {
+    /* margin: -24px 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline
+}
+.schedule  .items2-collection .items {
+    /* margin: -24px 20px; */
+    display: flex;
+}
+
+.schedule .item{
+    margin-left: 10px;
+}
+.schedule .item  .title span{
+    display: flex;
+    
+}
+
+.btn{
+    margin: -10px -5px;
+    padding: 10px 60px;
+    background-color: #4c9550;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+}
+.schedule .item h6{
+    margin: 0;
+    padding: 0;
+    color: #666;
+    
+}
+.schedule .wrapper .item-current{
+    width: 30%;
+
+}
+.schedule .wrapper .items-collection{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.schedule .item .days {
+    /* margin: 0; */
+    padding-bottom: 20px;
+    color: #666;
+}
+.card-collection {
+    margin-top: 40px;
+
+
+}
+.card-collection .wrapper{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-collection .wrapper-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-collection .wrapper .card{
+    text-align: center;
+    width: 20%;
+
+}
+.card-collection .wrapper .card img{
+   border-radius: 30%;
+
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+}
+.form-input input, select{
+    height:  35px;
+}
+.form-bakage{
+    display: flex;
+}
+.contact{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 3%;
+    margin-top: 60px;
+
+
+}
+.contact h2{
+    text-align: center;
+}
+.contact p{
+    margin-right: 10px;
+}
+.contact button{
+    margin-right: 10px;
+}
+.footer{
+    margin-top: 80px;
+    width: 80%;
+}
+.url ul{
+    background: #4c9550;
+}
+.url ul a,li{
+    color: #fff;
+
+}
+.row{
+    width: 70%;
+    font-weight: 800;
+    display: flex;
+    direction: calc(flex);
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+} 
+.cloumm{
+    flex-direction: column;
+    flex-basis: 25em;
+
+}
+.cloumm div{
+    margin-bottom: 10px;
+}
+.firs{
+    font-size: 18px;
+    font-weight: bold;
+    color: #653b16;
+    margin-bottom: 10px;
+}  
+.end{
+   margin: auto;
+   margin-top: 60px;
+
+    text-align: center;
+}
+.end p{
+    color: #ccc;
+    /* padding: 10px 0; */
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#wrapper {
+    width: 50%;
+}
+
+
+#wrapper #btn {
+    border: 0;
+    background: #209669;
+    color: #fff;
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+#wrapper #num {
+    border: 0;
+    color: rgb(15, 14, 14);
+    padding: 7px 25px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#wrapper #bar {
+    width: 60%;
+    height: 4px;
+    margin: 0 auto;
+    background: rgb(148, 146, 146);
+    margin-top: 20px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+#wrapper #bar #progress {
+    height: 4px;
+    width: 0%;
+    background: #f00;
+    transition: all .3s ease;
+}
